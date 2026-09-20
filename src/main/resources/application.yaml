@@ -1,3 +1,8 @@
 spring:
   application:
     name: draft
+
+logging:
+  structured:
+    format:
+      console: com.playground.java.draft.logging.PrettyJsonLoggingFormatter
